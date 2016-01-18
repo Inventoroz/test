@@ -36,8 +36,10 @@ public class MainActivity extends Activity
         Log.d("TEST7", "" + (base & OP_CONNECT));
         Log.d("TEST8", "" + (base & OP_ACCEPT));
 
-        Log.d("TEST9", "" + (base ^ OP_READ));
-        Log.d("TEST10", "" + (base & ~OP_READ));
+        //Log.d("TEST9", "" + (base ^ OP_READ));
+        //Log.d("TEST10", "" + (base & ~OP_READ));
+
+
 
         ByteBuffer byteBuffer;
     }
